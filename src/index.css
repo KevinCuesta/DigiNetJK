@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    p {
+        @apply mb-3
+    }
+    
+}
+
+body {
+    scrollbar-width: none;
+    color: rgb(0, 112, 164)
+}
